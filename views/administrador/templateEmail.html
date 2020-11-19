@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">    
+    <style type="text/css">
+        h1,h2,h3,h4,h5,h6{
+            margin-top:0;
+            margin-bottom:.5rem
+        }
+        label{
+            display:inline-block;
+            margin-bottom:.5rem
+        }
+        body{
+            margin:0;
+            font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+            font-size:1rem;
+            font-weight:400;
+            line-height:1.5;
+            color:#212529;
+            text-align:left;
+            background-color:#fff
+        }
+        img{
+            vertical-align:middle;
+            border-style:none
+        }
+        .container{
+            width:100%;
+            padding-right:15px;
+            padding-left:15px;
+            margin-right:auto;
+            margin-left:auto
+        }
+        @media (min-width:576px){
+            .container{
+                max-width:540px
+            }
+        }
+        @media (min-width:768px){
+            .container{
+                max-width:720px
+            }
+        }
+        @media (min-width:992px){
+            .container{
+                max-width:960px
+            }
+        }
+        @media (min-width:1200px){
+            .container{
+                max-width:1140px
+            }
+        }
+        .col{
+            -ms-flex-preferred-size:0;
+            flex-basis:0;
+            -ms-flex-positive:1;
+            flex-grow:1;
+            max-width:100%
+        }
+        .col-3{
+            -ms-flex:0 0 25%;
+            flex:0 0 25%;
+            max-width:25%
+        }
+        .p-5{
+            padding:3rem!important;
+        }
+        .p-1{
+            padding:1.5rem!important;
+        }
+        .card{
+            position:relative;
+            display:-ms-flexbox;
+            display:flex;
+            -ms-flex-direction:column;
+            flex-direction:column;
+            min-width:0;
+            word-wrap:break-word;
+            background-color:#fff;
+            background-clip:border-box;
+            border:1px solid rgba(0,0,0,.125);
+            border-radius:.25rem
+        }
+        .row{
+            display:-ms-flexbox;
+            display:flex;
+            -ms-flex-wrap:wrap;
+            flex-wrap:wrap;
+            margin-right:-15px;
+            margin-left:-15px
+        }
+        .mt-5,.my-5{
+            margin-top:3rem!important
+        }
+        .shadow{
+            box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important
+        }
+        .text-center{
+            text-align:center!important
+        }
+        .blockquote{
+            margin-bottom:1rem;
+            font-size:1.25rem
+        }
+        .text-primary{
+            color:#007bff!important
+        }
+        .img-fluid{
+            max-width: 100%; 
+            height: auto;
+        }
+        .font-weight-bold{
+            font-weight:700!important
+        }
+        .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
+            margin-bottom:.5rem;
+            font-weight:500;
+            line-height:1.2
+        }
+        .h1,h1{
+            font-size:2.5rem
+        }
+        .h2,h2{
+            font-size:2rem
+        }
+        .h3,h3{
+            font-size:1.75rem
+        }
+        .h4,h4{
+            font-size:1.5rem
+        }
+        .h5,h5{
+            font-size:1.25rem
+        }
+        .h6,h6{
+            font-size:1rem
+        }
+        .rounded{
+            border-radius:.25rem!important
+        }
+        .bg-white{
+            background-color:#fff!important
+        }
+        .container-width{
+            width: 500px;
+        }
+        .justify-content-center{
+            -ms-flex-pack:center!important;
+            justify-content:center!important
+        }
+        .center-content-div{
+            align-items: center;
+            display: flex;            
+            text-align: center;
+        }
+        .element-center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .borders-code{
+            border-color: #575757e5;
+            border-width: medium;
+            border-style: dashed;
+        }
+    </style>
+</head>
+<body class="" style="background-color:#800D0D0D">    
+        <div class="container text-center shadow p-5 bg-white rounded container-width justify-content-center" >
+            <h2 class="text-center">Solicitud para restablecer clave</h2>
+            <br>
+            <label class="text-center blockquote">Se ha solicitado un restablecimiento de clave y se ha generado un codigo para que se pueda continuar con el proceso de restablecimiento.</label>
+            <br>
+            <h1 class="text-center">Codigo de Restablecimiento</h1>                        
+            <br>         
+            <label class="text-center blockquote">Ingresa este codigo en la pagina para poder restablecer tu clave</label>
+            <br>
+            <div class="justify-content-center row center-content-div">
+                <div class="p-1 borders-code element-center" >
+                    <h2 class="text-center text-primary font-weight-bold">{{codigo}}</h2>
+                </div>
+            </div>            
+            <img src="https://i.pinimg.com/originals/6a/e4/7a/6ae47a4b45f76af9ea7936a92ba31c5d.png" alt="JOMAR logo" class="img-fluid">
+            <img src="https://i.pinimg.com/originals/40/80/07/408007926e42d9dbbe458b36d61817dd.png" alt="fogon logo" class="img-fluid">
+            <br>
+            <img src="https://i.pinimg.com/originals/31/36/93/3136931fd5b311139aee9cee120f7896.png" alt="picaro logo" class="img-fluid">
+        </div>        
+    </div>    
+</body>
+</html>

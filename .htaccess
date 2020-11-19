@@ -1,0 +1,7 @@
+
+# HTID:11379449: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:11379449:
+ErrorDocument 404 /Jomar/users_control/views/error/404.php
+ErrorDocument 403 /Jomar/users_control/views/error/403.php
+Options -Indexes
